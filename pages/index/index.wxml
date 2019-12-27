@@ -1,0 +1,70 @@
+
+<!--index.wxml-->
+<view class="content">
+<image class='background' src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577304160401&di=ac4a4798eab747408fb47b4feb43b68e&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-07-31%2F5b601434e6c80.jpg" mode="aspectFill"></image>
+  <view class="search-area">
+    <input bindinput="inputing" placeholder="请输入城市名称" value="{{inputCity}}" />
+    <button size="mini" bindtap="bindSearch">搜索</button>
+  </view>
+  <!--今天-->
+  <view class="info">
+
+    <!--城市名称 当前日期-->
+    <view class="city">{{city}}</view>
+    <view class="today">{{today}}</view>
+
+    <!--当天温度-->
+    <view class="temp">{{weather.wendu}}℃</view>
+
+    <!--感冒描述-->
+    <view class="weather">{{weather.ganmao}}</view>
+  </view>
+
+  <!--昨天-->
+  <view class="yesterday">
+    <view class="detail">
+      <text class="yesterday-title">昨天</text> {{weather.yesterday.date}}
+    </view>
+    <view class="detail">
+      {{weather.yesterday.type}}
+
+      <!--天气类型，如阴、晴-->
+      {{weather.yesterday.fx}}
+
+      <!--风向-->
+      {{weather.yesterday.fl}}
+
+      <!--风力-->
+      {{weather.yesterday.low}}
+
+      <!--最低温度-->
+      {{weather.yesterday.high}}
+
+      <!--最高温度-->
+    </view>
+  </view>
+
+  <!--最近五天天气信息-->
+  <view class="forecast">
+    <view class="next-day" wx:key="{{index}}" wx:for="{{weather.forecast}}">
+
+      <!--日期-->
+      <view class="detail date">{{item.date}}</view>
+
+      <!--天气类型-->
+      <view class="detail">{{item.type}}</view>
+
+      <!--最高温度-->
+      <view class="detail">{{item.high}}</view>
+
+      <!--最低温度-->
+      <view class="detail">{{item.low}}</view>
+
+      <!--风向-->
+      <view class="detail">{{item.fengxiang}}</view>
+
+      <!--风力-->
+      <view class="detail">{{item.fengli}}</view>
+    </view>
+  </view>
+</view>
