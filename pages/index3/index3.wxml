@@ -1,0 +1,34 @@
+<!--pages/index3/index3.wxml-->
+<view class="content">
+    <image class='background' src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577304160401&di=91b8532ea90cd3325d2e316403455209&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201608%2F26%2F20160826103832_3MjLa.thumb.700_0.jpeg" mode="aspectFill"></image>
+</view>
+
+<view class="main">
+<view>
+<image src="http://image.nmc.cn/product/2019/12/25/STFC/medium/SEVP_NMC_STFC_SFER_ET0_ACHN_L88_PB_20191225150000000.jpg?v=1577289185682"></image>
+</view>
+
+<view class="main">
+<view>
+<image src="http://image.nmc.cn/product/2019/12/25/STFC/medium/SEVP_NMC_STFC_SFER_ET0_ACHN_L88_PB_20191225150000000.jpg?v=1577289185682"></image>
+</view>
+</view>
+</view>
+
+<view class="main">
+<view>
+<image src="http://image.nmc.cn/product/2019/12/25/STFC/medium/SEVP_NMC_STFC_SFER_EDA_ACHN_L88_PB_20191225150000000.jpg?v=1577289139902"></image>
+</view>
+</view>
+
+<view class="main">
+<view>
+<image src="http://image.nmc.cn/product/2019/12/25/RFFC/medium/SEVP_NMC_RFFC_SNWFD_ETM_ACHN_L88_P9_20191225200002412.jpg?v=1577268302627"></image>
+</view>
+</view>
+
+<view class="main">
+<view>
+<image src="http://image.nmc.cn/product/2019/12/25/STFC/medium/SEVP_NMC_STFC_SFER_ER24_ACHN_L88_P9_20191225130002400.jpg?v=1577264183879"></image>
+</view>
+</view>
